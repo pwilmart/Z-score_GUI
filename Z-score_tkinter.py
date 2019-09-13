@@ -30,13 +30,18 @@ ANY PATENT, TRADEMARK OR OTHER RIGHTS.
 # written by Phil Wilmarth, OHSU, 2012, 2016
 # updated for Python3 and uses pandas
 #
+# standard libraries
 import tkinter as tk
 from tkinter import ttk
 import os
 import sys
 
+# scientific stack libraries
 import numpy as np
 import pandas as pd
+import scipy.stats
+from scipy.optimize import curve_fit
+
 
 # create some globals
 WINDOW = 301    # sliding window width (use 41, 61, 81, or 101)
@@ -328,9 +333,7 @@ Written by Phil Wilmarth, OHSU, 2012-6."""
         return amp * np.exp(-(x - mean)**2 / (2 * sigma**2))
 
     def fit_Gaussian(self):
-        """Hisotgrams Z-scores and fits a Gaussian to histogram."""
-        from scipy.optimize import curve_fit
-        
+        """Hisotgrams Z-scores and fits a Gaussian to histogram."""        
         # histogram the Z-scores
         bins = np.linspace(-3.1, 3.1, 63)
         centers = bins + 0.05
@@ -349,8 +352,7 @@ Written by Phil Wilmarth, OHSU, 2012-6."""
 
     def p_values(self):
         """Computes p-values of Z-scores."""
-        import scipy.stats
-        
+        # uses cumulative distribution function for 2-tailed probabilities
         Z = self.data_frame['Z-Score'].abs()
         cdf = scipy.stats.norm(self.mean, self.sigma).cdf(Z) 
         self.data_frame['p-value'] = 2 * (1.0 - cdf)
