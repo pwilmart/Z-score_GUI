@@ -3,7 +3,7 @@ GUI app for doing sliding window Z-score transformations of quantitative proteom
 
 ---
 
-![Idle launch](images/idle_launch.png)
+![Idle launch](images/Idle_launch.png)
 
 The GUI script needs Python 3. Installation from [Python.org](https://www.python.org/downloads/) or [Anaconda](https://www.anaconda.com/distribution/) are recommended. There are several ways to launch Python scripts. I like using the built-in integrated development environment called IDLE.
 
