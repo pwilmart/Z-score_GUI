@@ -1,29 +1,30 @@
 """Z-score_tkinter.py: Written by Phil Wilmarth, OHSU.
 Applies a Z-transformation to pair-wise quantitative proteomics data.
 Requires Python 3.x, numpy, and pandas.
-Copyright 2011-2016, Oregon Health & Science University.
-All Rights Reserved.
 
-Permission to use, copy, modify, and distribute any part of this program
-for non-profit scientific research or educational use, without fee, and
-without a written agreement, is hereby granted, provided that the above
-copyright notice, and this license agreement appear in all copies.
-Inquiries regarding use of this software in commercial products or for
-commercial purposes should be directed to:
+written by Phil Wilmarth 2011-2016, Oregon Health & Science University.
 
-Technology & Research Collaborations, Oregon Health & Science University,
-2525 SW 1st Ave, Suite 120, Portland, OR 97210
-Ph: 503-494-8200, FAX: 503-494-4729, Email: techmgmt@ohsu.edu.
+MIT License
 
-IN NO EVENT SHALL OREGON HEALTH & SCIENCE UNIVERSITY BE LIABLE TO ANY
-PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
-INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE.  THE
-SOFTWARE IS PROVIDED "AS IS", AND OREGON HEALTH &SCIENCE UNIVERSITY HAS
-NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, OR ENHANCEMENTS.
-OREGON HEALTH & SCIENCE UNIVERSITY MAKES NO REPRESENTATIONS NOR EXTENDS
-WARRANTIES OF ANY KIND, EITHER IMPLIED OR EXPRESS, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
-PARTICULAR PURPOSE, OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE
+Copyright (c) 2019 OHSU and Phillip Wilmarth
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.THE SOFTWARE WILL NOT INFRINGE
 ANY PATENT, TRADEMARK OR OTHER RIGHTS.
 """
 # Python Tkinter program for calculating Z-score transformations
