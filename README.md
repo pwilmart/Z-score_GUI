@@ -69,6 +69,14 @@ Now we can format the new columns, add any additional columns (like the counter 
 
 ---
 
+## The Z-score distribution and Gaussian fit
+
+![Z-score distribution](images/Z-scores_fit.png)
+
+The Gaussian fitting of the Z-score distribution is built-in to the script. Z-transformations are pretty robust, so looking at a standard normal distribution and a Gaussian fit to it are not really needed. I have an Excel template that histograms the Z-scores and fits a Gaussian to the distribution using the Solver Add-in. Curve fitting in Excel is kind of fun to learn how to do and the Solver is a pretty powerful tool with some nice features. The Z-scores for this dataset have the expected distribution and the Gaussian values for the centroid and sigma are close to 0.0 and 1.0.
+
+---
+
 ## Check the p-value distribution
 
 ![P-value distribution](images/p-values.png)
