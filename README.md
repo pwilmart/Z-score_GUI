@@ -127,3 +127,7 @@ The Z-score results are not too sensitive to the trim value. A 25% trim is exclu
 The Z-score method is a rather blunt tool. It clearly falls into the "better than nothing" category. Use carefully (and sparingly)!
 
 ---
+
+### Other GUI tool
+
+`BH_p-value_adjuster.py` - [Benjamini-Hochberg](https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1995.tb02031.x) multiple-testing correction of a list of p-values. Input and output via clipboard.
